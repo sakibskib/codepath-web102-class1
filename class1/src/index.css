@@ -19,3 +19,21 @@ td {
 .time {
   height: 40px;
 }
+.event {
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.pink {
+  background-color: #ff69b4;
+}
+
+.blue {
+  background-color: #6495ed;
+}
+
+.green {
+  background-color: #00ff00;
+}

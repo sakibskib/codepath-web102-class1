@@ -18,18 +18,19 @@ const Calendar = () => {
         <tbody>
           <tr>
             <td className="time">8am</td>
-            <Event event='Fancy Dinner' color ='green'/>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <Event event='Fancy Dinner 🎩' location='Maple & Ash' color ='green'/>
+            <Event event='Morning Jog 🏃‍♂️' color='blue' />
+            <Event event='Team Meeting 🤝' color='blue' />
+            <Event event='Lunch Break 🍔' color='blue' />
+            <Event event='Coding Workshop 💻' color='pink' />
+            <Event event='Movie Night 🎥' color='green' />
             <td></td>
           </tr>
           <tr>
             <td className="time">9am</td>
             <td> </td>
-            <td></td>
+            <Event event='Reading Club 📚' color='pink' />
+
             <td></td>
             <td></td>
             <td></td>
@@ -38,7 +39,8 @@ const Calendar = () => {
           </tr>
           <tr>
             <td className="time">10am</td>
-            <td> </td>
+            <Event event='Gym Workout 💪' color='green' />
+
             <td></td>
             <td></td>
             <td></td>
@@ -62,7 +64,8 @@ const Calendar = () => {
             <td></td>
             <td></td>
             <td></td>
-            <td></td>
+            <Event event='Dinner with Friends 🍽️' color='blue' />
+
             <td></td>
             <td></td>
           </tr>
